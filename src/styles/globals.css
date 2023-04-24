@@ -1,0 +1,138 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  color: slateblue;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+a:hover {
+  color: slateblue;
+}
+
+.text--purple {
+  color: darkslateblue;
+}
+
+.bg-light-lilac {
+  background-color: rgb(230, 220, 255);
+}
+
+.bg-lilac {
+  background-color: rgb(220, 200, 255);
+}
+
+#badge-container {
+  font-family: "Source Code Pro", monospace;
+}
+
+#badge-container:first-child {
+  margin-left: 0;
+}
+
+#badge-container:last-child {
+  margin-right: 0;
+}
+
+.card-container {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0);
+  border-radius: 8px;
+  transition: box-shadow 0.3s linear;
+}
+
+.card-container:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s linear;
+}
+
+.space--expand {
+  max-height: 80px;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in;
+}
+
+.space--hide {
+  max-height: 0px;
+  transition: max-height 0.5s ease-out;
+}
+
+.custom-border {
+  border-color: rgb(220, 200, 255) !important;
+}
+
+.avatar-wobble {
+  border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+  box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.2);
+  animation: morphing 8s infinite;
+  overflow: hidden;
+}
+
+.avatar-wobble:hover {
+  animation-play-state: paused;
+}
+
+@-moz-keyframes morphing {
+  0% {
+    border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+    box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.2);
+  }
+  25% {
+    border-radius: 58% 42% 75% 25%/76% 46% 54% 24%;
+  }
+  50% {
+    border-radius: 50% 50% 33% 67%/55% 27% 73% 45%;
+    box-shadow: -10px -5px 50px rgba(0, 0, 0, 0.2);
+  }
+  75% {
+    border-radius: 33% 67% 58% 42%/63% 68% 32% 37%;
+  }
+}
+@-webkit-keyframes morphing {
+  0% {
+    border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+    box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.2);
+  }
+  25% {
+    border-radius: 58% 42% 75% 25%/76% 46% 54% 24%;
+  }
+  50% {
+    border-radius: 50% 50% 33% 67%/55% 27% 73% 45%;
+    box-shadow: -10px -5px 50px rgba(0, 0, 0, 0.2);
+  }
+  75% {
+    border-radius: 33% 67% 58% 42%/63% 68% 32% 37%;
+  }
+}
+@-o-keyframes morphing {
+  0% {
+    border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+    box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.2);
+  }
+  25% {
+    border-radius: 58% 42% 75% 25%/76% 46% 54% 24%;
+  }
+  50% {
+    border-radius: 50% 50% 33% 67%/55% 27% 73% 45%;
+    box-shadow: -10px -5px 50px rgba(0, 0, 0, 0.2);
+  }
+  75% {
+    border-radius: 33% 67% 58% 42%/63% 68% 32% 37%;
+  }
+}
+@keyframes morphing {
+  0% {
+    border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+    box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.2);
+  }
+  25% {
+    border-radius: 58% 42% 75% 25%/76% 46% 54% 24%;
+  }
+  50% {
+    border-radius: 50% 50% 33% 67%/55% 27% 73% 45%;
+    box-shadow: -10px -5px 50px rgba(0, 0, 0, 0.2);
+  }
+  75% {
+    border-radius: 33% 67% 58% 42%/63% 68% 32% 37%;
+  }
+}

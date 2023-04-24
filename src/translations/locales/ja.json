@@ -1,0 +1,217 @@
+{
+  "translation": {
+    "Header": {
+      "name": "アカシ・クマール (　空　）",
+      "title": "DevOpsエンジニア",
+      "description": "2019年から複数のプログラミング言語に精通した経験豊富なコーダー。",
+      "subDescription": "インド、ビハール州出身。生活の質の向上と職場の効率化のために、自分のスキルや専門知識を生かす機会を求めている。",
+      "location": "ビハール州・インド"
+    },
+    "FloatMenu": {
+      "cv": {
+        "label": "CV ダウンロード"
+      }
+    },
+    "WorkExperience": {
+      "title": "職歴",
+      "EH_SummerTrainning": {
+        "title": "エシカルハッキングサマートレーニング",
+        "subtitle": "インターンシップ",
+        "placeName": "インド工科大学カラグプル校 カラグプル校",
+        "dateRange": "2021年08月 - 2021年09月",
+        "location": "リモート",
+        "url":"https://drive.google.com/file/d/1J5p_VHyz834Y17Rdw0-2LDaG2EK8RPdA/view",
+        "tasks": {
+          "1": "nmap, Google Dork, Netcat, shodan.io, Metasploit Frameworkを用いた情報収集とスキャニング。",
+          "2": "ネットワーキング ネットワークとインターネットの仕組み、ファイアウォール、IDS、IPSの学習。",
+          "3": "Wifiのセキュリティ。wifiの仕組みやWPA2のクラッキングを学ぶ、ブルートフォース。",
+          "4": "Webアプリのセキュリティ。任意のコード実行、SQLインジェクション、シェルエクスプロイト、CSRF、DoS攻撃。",
+          "5": "暗号技術 暗号技術、暗号の種類、エニグマ、その他の暗号サービス。"
+        }
+      }
+    },
+    "Achievement": {
+      "title": "実績紹介",
+      "CollegeProject": {
+        "title": "ベストプロジェクト",
+        "subtitle": "大学プロジェクト",
+        "desc": "GCE-KR (学部最終学年プロジェクト)",
+        "dateRange": "(2022年06月 - 2022年07月)",
+        "location": "ビハール州・インド"
+      },
+      "PicoCTF": {
+        "title": "PicoCTF ジムスコア：11500以上",
+        "subtitle": "CTFs",
+        "url": "https://play.picoctf.org/users/sky9262",
+        "desc": "picoCTF - CMUサイバーセキュリティコンテスト"
+      },
+      "SquidCTF": {
+        "title": "イカCTF 2022で1/75",
+        "subtitle": "CTFs",
+        "url": "https://github.com/sky9262/writeups/tree/main/2022/SquidCTF",
+        "desc": "SquidCTF IIT Goaの公式技術祭であるCepheus '22が主催するCTFです。"
+      },
+      "KnightCTF": {
+        "title": "ナイトCTF 2022で18/752",
+        "subtitle": "CTFs",
+        "url": "https://github.com/sky9262/writeups/tree/main/2022/KnightCTF",
+        "desc": "KnightCTF バングラデシュのナイトスクワッドコミュニティが主催するCTF。"
+      },
+      "TryHackMe": {
+        "title": "TryHackMeで上位2％ [0x9][OMNI]。",
+        "subtitle": "学習プラットフォーム",
+        "url": "https://tryhackme.com/p/sky9262",
+        "desc": "70以上の部屋をクリア、9以上のレベル11以上のバッジ TryHackMeは、実践的な演習やラボを使ってサイバーセキュリティを学習するための無料のオンラインプラットフォームです。"
+      },
+      "CISCObadge": {
+        "title": "サイバーセキュリティ・エッセンシャルバッジ",
+        "subtitle": "バッジ",
+        "url": "https://www.credly.com/badges/3f668e38-27f7-4ae8-9e03-c0a53ad18f14/public_url",
+        "desc": "Cybersecurity Essentialsコースを無事修了すると、Cisco Cybersecurity Essential Badgeがもらえます。"
+      }
+    },
+    "Certification": {
+      "title": "認定証",
+      "N4": {
+        "title": "4Q 日本語 NAT Test",
+        "desc": "日本語能力試験N4と同等",
+        "dateRange": "(02/2023)"
+      },
+      "aws": {
+        "title": "AWSデベロッパーアソシエイト ",
+        "url": "https://certificates.simplicdn.net/share/4184064.pdf",
+        "desc": "Simplilearn",
+        "dateRange": "(02/2023)"
+      },
+      "N5": {
+        "title": "N5 日本語能力試験 JLPT",
+        "url": "https://drive.google.com/file/d/1SIN0svrHxpoaXqlaJ-eMaoVrLidHsXu0/view",
+        "desc": "JLPT N5",
+        "dateRange": "(06/2022)"
+      },
+      "python2": {
+        "title": "Pythonによる科学計算 ",
+        "url": "https://www.freecodecamp.org/certification/sky9262/scientific-computing-with-python-v7",
+        "desc": "FreeCodeCamp.org",
+        "dateRange": "(05/2021 - 07/2021)"
+      },
+      "python1": {
+        "title": "Pythonの認定資格 ",
+        "url": "https://drive.google.com/file/d/1JFUxnnr-ASJQ3Gz7ej6Cf1f27aWDul8V/view",
+        "desc": "Perfect E-Learning",
+        "dateRange": "(03/2021 - 06/2021)"
+      },
+      "CISCO": {
+        "title": "サイバーセキュリティ・エッセンシャルズ ",
+        "url": "https://drive.google.com/file/d/1q69U0LXm0cIh2Zf3iP_c8Z63LE55xqpl/view?usp=share_link",
+        "desc": "CISCO",
+        "dateRange": "(01/2021 - 06/2021)"
+      }
+    },
+    "Skills": {
+      "title": "特技"
+    },
+    "Languages": {
+      "title": "言語",
+      "hindi": {
+        "title": "ヒンディー語",
+        "level": "母国語"
+      },
+      "english": {
+        "title": "英語",
+        "level": "バイリンガル"
+      },
+      "japanese": {
+        "title": "日本語",
+        "level": "ビジネス初級"
+      }
+    },
+    "Education": {
+      "title": "学歴",
+      "graduation": {
+        "title": "卒業",
+        "marks": "1部 ( 65.13% )",
+        "placeName": "パトリプトラ大学、パトナ",
+        "courses": {
+          "1": "情報技術",
+          "2": "数学",
+          "3": "英語"
+        },
+        "dateRange": "2019年06月 - 2022年11月",
+        "location": "ビハール州・インド"
+      },
+      "Intermediate": {
+        "title": "高等学校",
+        "marks": "1部 ( 67.2% )",
+        "placeName": "ビハール州学校試験委員会",
+        "courses": {
+          "1": "物理学",
+          "2": "化学",
+          "3": "数学",
+          "4": "生物学（追加で）"
+        },
+        "dateRange": "2017年03月 - 2019年04月",
+        "location": "ビハール州・インド"
+      }
+    },
+    "Interests": {
+      "title": "趣味",
+      "content": "日本文化,サイバーセキュリティ,暗号,暗号化・復号化,リバースエンジニアリング,パズル,写真,旅行,ビデオゲーム"
+    },
+    "Project": {
+      "title": "プロジェクト",
+      "cta": "プロジェクト発見",
+      "ec2AutoScaling": {
+        "name": "監視しているCloudWatch Metricsに基づき、EC2インスタンスのAuto Scalingを実装した。",
+        "primaryType": "AWSオートスケーリング",
+        "secondaryType": "コースプロジェクト",
+        "description": "Auto Scalingを導入し、CloudWatch、Auto Scaling、EC2などのAWSサービスを活用し、監視したメトリクスに基づき動的にリソースを管理した。CloudWatchのメトリクスを取得・分析し、効率的なコスト管理とAWSリソースの最適化を実現。追加されたEC2インスタンスへのソフトウェア/アプリケーションのインストールと設定を自動化するためのAMIの実装と設定の経験がある。",
+        "roles": "AWSクラウド開発者",
+        "stacks": "EC2,CloudWatch,Cloudformation,Auto Scaling",
+        "imgSrc": "/assets/projects/ec2AutoScaling.png",
+        "url": "https://github.com/sky9262/AWS-Developer-Associate/tree/main/Projects/Course-end%20Project%203"
+      },
+      "ServerlessWeb": {
+        "name": "サーバーレステクノロジーを使ったフィードバックサイトの構築。",
+        "primaryType": "AWS サーバーレスウェブ",
+        "secondaryType": "コースプロジェクト",
+        "description": "サーバーレス技術とS3、DynamoDB、Cognito、IAMなどのAWSサービスを使って、フィードバックサイトを設計した。フィードバックフォームは、お客様のフィードバックを収集するために設計され、さらなる分析のためにDynamoDBに保存されました。ウェブサイトの認証はCognitoを使用して実装し、ユーザーのサインアップとログインができるようにしました。サーバーレス技術を活用することで、サーバーを管理する必要がなくなり、クラウドプロバイダーが容量計画、スケーリング、高可用性、耐障害性を自動的に管理できるようにしました。",
+        "roles": "AWSクラウド開発者",
+        "stacks": "S3,Cognito(authentication),IAM,DynamoDB",
+        "imgSrc": "/assets/projects/ServerlessWeb.png",
+        "url": "https://github.com/sky9262/AWS-Developer-Associate/tree/main/Projects/Course-end%20Project%202"
+      },
+      "phishEye": {
+        "name": "phishEye",
+        "primaryType": "Pythonアプリ",
+        "secondaryType": "生産終了",
+        "description": "phishEyeは、PYTHONのPHISHINGツールです。Facebook、Twitter、Instagram、LinkedIn、GitHub、Dropboxなど、人気のあるウェブサイトを含んでいます。FLASKとカスタムテンプレートで作成され、複数のサービスをトンネリングしています。phishEyeに関する記事、執筆：私:- https://sky9262.tistory.com/5",
+        "stacks": "python,Flask,phishing",
+        "imgSrc": "/assets/projects/phisheye.png",
+        "url": "https://github.com/sky9262/phishEye "
+      },
+      "winLock": {
+        "name": "winLock",
+        "primaryType": "Python Application",
+        "secondaryType": "Folder Locker",
+        "description": "Tkinterモジュールを用いて、パスワードによるフォルダのロック・アンロックを可能にするグラフィカルユーザーインターフェースを作成するPythonスクリプトを開発しました。\nこのスクリプトは、filedialog、win32com.client、subprocess、os、pythoncomなどのモジュールを利用して、ロックされたフォルダを作成し管理します。また、ロックされたフォルダのリストをクリック可能なボタンとして表示し、ロックを簡単に解除できるGUIを備えています。",
+        "stacks": "python,tkinter,pythoncom,win32com.shell",
+        "imgSrc": "/assets/projects/winLock.png",
+        "url": "https://github.com/sky9262/winLock "
+      },
+      "gce-korea": {
+        "name": "Gce-Korea",
+        "primaryType": "Webアプリ",
+        "secondaryType": "フルスタックウェブプロジェクト",
+        "description": "MERNスタックプロジェクトです。本サイトは「GitHub Campus Expert - Korea」専用です。REACT JSで作成しました。\nAPI は NODE JS を使用して作成され、Render でホストされました。\nデータベースはMongoDB atlasでホストされています。\n- Sign in & Sign up\n- sha256 暗号化\n- sha256 復号化.\n\n試写: https://sky9262.github.io/gce-korea/",
+        "roles": "フルスタックエンジニア,チームリーダー",
+        "stacks": "React Js, MongoDB, Express Js, Node Js, Bootstrap",
+        "imgSrc": "/assets/projects/gce-korea.png",
+        "url": "https://github.com/sky9262/gce-korea"
+      }
+    },
+    "Footer": {
+      "content": "愛を込めて作りました♥」。翻訳: DeepL Translator"
+    }
+  }
+}

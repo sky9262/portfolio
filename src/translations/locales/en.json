@@ -1,0 +1,217 @@
+{
+  "translation": {
+    "Header": {
+      "name": "Akash Kumar",
+      "title": "DevOps Engineer",
+      "description": "Experienced coder proficient in multiple programming languages since 2019.",
+      "subDescription": "Originally from Bihar, India. Seeking opportunities to utilize my skills and expertise to enhance quality of life and promote workplace efficiency.",
+      "location": "Bihar, India"
+    },
+    "FloatMenu": {
+      "cv": {
+        "label": "Get my CV!"
+      }
+    },
+    "WorkExperience": {
+      "title": "Work Experience",
+      "EH_SummerTrainning": {
+        "title": "Ethical Hacking Summer Training",
+        "subtitle": "Internship",
+        "placeName": "IIT Kharagpur",
+        "dateRange": "2021/08 - 2021/09",
+        "location": "Remote",
+        "url":"https://drive.google.com/file/d/1J5p_VHyz834Y17Rdw0-2LDaG2EK8RPdA/view",
+        "tasks": {
+          "1": "Information Gathering & Scanning using nmap, Google Dork, Netcat, shodan.io, Metasploit Framework.",
+          "2": "Networking: Learning how network and internet works and Firewall, IDS & IPS.",
+          "3": "Wifi Security: Learning how wifi works and WPA2 cracking, Brute Force.",
+          "4": "Web App Security: Arbitrary Code Execution, SQL Injection, Shell Exploits, CSRF, DoS attack.",
+          "5": "Cryptography: Cryptography Techniques, Type of Encryption, Enigma and other Cryptography Service."
+        }
+      }
+    },
+    "Achievement": {
+      "title": "Achievements",
+      "CollegeProject": {
+        "title": "Best Project",
+        "subtitle": "CollegeProject",
+        "desc": "GCE-KR (Undergraduation final year project)",
+        "dateRange": "(06/2022 - 07/2022)",
+        "location": "Bihar, India"
+      },
+      "PicoCTF": {
+        "title": "PicoCTF Gym Score: 11500+ ",
+        "subtitle": "CTFs",
+        "url": "https://play.picoctf.org/users/sky9262",
+        "desc": "picoCTF - CMU Cybersecurity Competition"
+      },
+      "SquidCTF": {
+        "title": "1/75 in Squid CTF 2022 ",
+        "subtitle": "CTFs",
+        "url": "https://github.com/sky9262/writeups/tree/main/2022/SquidCTF",
+        "desc": "SquidCTF a CTF organized by Cepheus ‘22, the official tech fest of IIT Goa."
+      },
+      "KnightCTF": {
+        "title": "18/752 in Knight CTF 2022 ",
+        "subtitle": "CTFs",
+        "url": "https://github.com/sky9262/writeups/tree/main/2022/KnightCTF",
+        "desc": "KnightCTF a CTF organized by Knight Squad Community of Bangladesh."
+      },
+      "TryHackMe": {
+        "title": "Top 2% in TryHackMe [0x9][OMNI]",
+        "subtitle": "Learning Platform",
+        "url": "https://tryhackme.com/p/sky9262",
+        "desc": "70+ Rooms Complete,  9+ Level 11+ Badges. TryHackMe is a free online platform for learning cyber security, using hands-on exercises and labs."
+      },
+      "CISCObadge": {
+        "title": "Cybersecurity Essential Badge",
+        "subtitle": "Badge",
+        "url": "https://www.credly.com/badges/3f668e38-27f7-4ae8-9e03-c0a53ad18f14/public_url",
+        "desc": "Cisco Cybersecurity Essential Badge on successfully completed the Cybersecurity Essentials course."
+      }
+    },
+    "Certification": {
+      "title": "Certifications",
+      "N4": {
+        "title": "4Q Japanese NAT Test",
+        "desc": "Equivalent to JLPT N4",
+        "dateRange": "(02/2023)"
+      },
+      "aws": {
+        "title": "AWS Developer Associate ",
+        "url": "https://certificates.simplicdn.net/share/4184064.pdf",
+        "desc": "Simplilearn",
+        "dateRange": "(02/2023)"
+      },
+      "N5": {
+        "title": "N5 Japanese Language Proficiency Test",
+        "url": "https://drive.google.com/file/d/1SIN0svrHxpoaXqlaJ-eMaoVrLidHsXu0/view",
+        "desc": "JLPT N5",
+        "dateRange": "(06/2022)"
+      },
+      "python2": {
+        "title": "Scientific Computing with Python ",
+        "url": "https://www.freecodecamp.org/certification/sky9262/scientific-computing-with-python-v7",
+        "desc": "FreeCodeCamp.org",
+        "dateRange": "(05/2021 - 07/2021)"
+      },
+      "python1": {
+        "title": "Python Certification ",
+        "url": "https://drive.google.com/file/d/1JFUxnnr-ASJQ3Gz7ej6Cf1f27aWDul8V/view",
+        "desc": "Perfect E-Learning",
+        "dateRange": "(03/2021 - 06/2021)"
+      },
+      "CISCO": {
+        "title": "Cybersecurity Essentials ",
+        "url": "https://drive.google.com/file/d/1q69U0LXm0cIh2Zf3iP_c8Z63LE55xqpl/view?usp=share_link",
+        "desc": "CISCO",
+        "dateRange": "(01/2021 - 06/2021)"
+      }
+    },
+    "Skills": {
+      "title": "Skills"
+    },
+    "Languages": {
+      "title": "Languages",
+      "hindi": {
+        "title": "Hindi",
+        "level": "Native"
+      },
+      "english": {
+        "title": "English",
+        "level": "Bilingual"
+      },
+      "japanese": {
+        "title": "Japanese",
+        "level": "Conversational"
+      }
+    },
+    "Education": {
+      "title": "Education",
+      "graduation": {
+        "title": "Bachelor",
+        "marks": "1st division ( 65.13% )",
+        "placeName": "Patliputra University, Patna",
+        "courses": {
+          "1": "Information Technology",
+          "2": "Mathematics",
+          "3": "English"
+        },
+        "dateRange": "06/2019 - 11/2022",
+        "location": "Bihar, India"
+      },
+      "Intermediate": {
+        "title": "Intermediate",
+        "marks": "1st division ( 67.2% )",
+        "placeName": "Bihar School Examination Board",
+        "courses": {
+          "1": "Physics",
+          "2": "Chemistry",
+          "3": "Mathematics",
+          "4": "Biology (additional)"
+        },
+        "dateRange": "03/2017 - 04/2019",
+        "location": "Bihar, India"
+      }
+    },
+    "Interests": {
+      "title": "Interests",
+      "content": "Japanese Culture, Cyber Security, Cryptography, Encryption/Decryption, Reverse Engineering, Puzzle, Photography, Travelling, Video Games"
+    },
+    "Project": {
+      "title": "Projects",
+      "cta": "Discover my projects",
+      "ec2AutoScaling": {
+        "name": "Implemented Auto Scaling the EC2 Instance-Based on Monitored CloudWatch Metrics.",
+        "primaryType": "AWS Auto Scaling",
+        "secondaryType": "course project",
+        "description": "Implemented Auto Scaling and utilized AWS services such as CloudWatch, Auto Scaling, and EC2 to manage resources dynamically based on monitored metrics. Captured and analyzed CloudWatch metrics to ensure efficient cost management and optimized AWS resources. Experienced in implementing and configuring AMIs to automate software/application installation and configuration for added EC2 instances.",
+        "roles": "AWS cloud developer",
+        "stacks": "EC2,CloudWatch,Cloudformation,Auto Scaling",
+        "imgSrc": "/assets/projects/ec2AutoScaling.png",
+        "url": "https://github.com/sky9262/AWS-Developer-Associate/tree/main/Projects/Course-end%20Project%203"
+      },
+      "ServerlessWeb": {
+        "name": "Architecting a feedback website using Serverless Technology.",
+        "primaryType": "AWS Serverless Web",
+        "secondaryType": "course project",
+        "description": "I architected a feedback website using serverless technology and AWS services such as S3, DynamoDB, Cognito, and IAM. The feedback form was designed to collect customer feedback, which was stored in DynamoDB for further analysis. The website's authentication was implemented using Cognito to allow for user signup and login. By leveraging serverless technology, I eliminated the need for managing servers and allowed the cloud provider to automatically manage capacity planning, scaling, high availability, and fault tolerance.",
+        "roles": "AWS cloud developer",
+        "stacks": "S3,Cognito(authentication),IAM,DynamoDB",
+        "imgSrc": "/assets/projects/ServerlessWeb.png",
+        "url": "https://github.com/sky9262/AWS-Developer-Associate/tree/main/Projects/Course-end%20Project%202"
+      },
+      "phishEye": {
+        "name": "phishEye",
+        "primaryType": "Python Application",
+        "secondaryType": "Discontinued",
+        "description": "phishEye is a PHISHING tool in PYTHON. It Includes popular websites like Facebook, Twitter, Instagram, LinkedIn, GitHub, Dropbox, and many others. Created with FLASK and custom templates and tunneled multiple services. Article on phishEye, written by me:- https://sky9262.tistory.com/5",
+        "stacks": "python,Flask,phishing",
+        "imgSrc": "/assets/projects/phisheye.png",
+        "url": "https://github.com/sky9262/phishEye "
+      },
+      "winLock": {
+        "name": "winLock",
+        "primaryType": "Python Application",
+        "secondaryType": "Folder Locker",
+        "description": "Developed a Python script using the Tkinter module that creates a graphical user interface allowing users to lock and unlock folders with a password. \nThis script utilizes various modules such as filedialog, win32com.client, subprocess, os, and pythoncom to create and manage locked folders. The GUI also displays a list of locked folders as clickable buttons for an easy way to remove the lock.",
+        "stacks": "python,tkinter,pythoncom,win32com.shell",
+        "imgSrc": "/assets/projects/winLock.png",
+        "url": "https://github.com/sky9262/winLock "
+      },
+      "gce-korea": {
+        "name": "Gce-Korea",
+        "primaryType": "Web Application",
+        "secondaryType": "Full Stack Web Project",
+        "description": "A MERN stack project.This website is dedicated to \"GitHub Campus Expert - Korea\". Created with REACT JS.\nAPI created using NODE JS and hosted on Render.\nDatabase hosted on Mongodb atlas.\n- Sign in & Sign up\n- sha256 encryption\n- sha256 decryption.\n\nPreview: https://sky9262.github.io/gce-korea/",
+        "roles": "Fullstack Web Developer",
+        "stacks": "React Js, MongoDB, Express Js, Node Js, Bootstrap ",
+        "imgSrc": "/assets/projects/gce-korea.png",
+        "url": "https://github.com/sky9262/gce-korea"
+      }
+    },
+    "Footer": {
+      "content": "Made with love ♥"
+    }
+  }
+}
