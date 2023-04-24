@@ -59,14 +59,14 @@ export const Projects = () => {
                   >
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <img
+                        <Image
                           class="d-block w-100"
                           src={imgSrc}
                           alt="First slide"
                         />
                       </div>
                       <div class="carousel-item">
-                        <img
+                        <Image
                           class="d-block w-100"
                           src={imgSrc2}
                           alt="Second slide"
