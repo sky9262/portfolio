@@ -10,6 +10,9 @@ COPY . .
 # Install dependencies
 RUN npm install
 
+# Install Next.js globally
+RUN npm install -g next
+
 # Build the React application
 RUN npm run build
 
