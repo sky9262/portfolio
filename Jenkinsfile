@@ -2,6 +2,12 @@ pipeline {
   agent any
 
   stages {
+    stage('Checkout') {
+      steps {
+        checkout scm
+      }
+    }
+
     stage('Build') {
       steps {
         script {
@@ -9,6 +15,18 @@ pipeline {
             sh 'docker build -t portfolio .'
           } else {
             bat 'docker build -t portfolio .'
+          }
+        }
+      }
+    }
+
+    stage('Test') {
+      steps {
+        script {
+          if (isUnix()) {
+            sh 'npm run test'
+          } else {
+            bat 'npm run test'
           }
         }
       }
