@@ -196,7 +196,7 @@
         "secondaryType": "Folder Locker",
         "description": "Developed a Python script using the Tkinter module that creates a graphical user interface allowing users to lock and unlock folders with a password. \nThis script utilizes various modules such as filedialog, win32com.client, subprocess, os, and pythoncom to create and manage locked folders. The GUI also displays a list of locked folders as clickable buttons for an easy way to remove the lock.",
         "stacks": "python,tkinter,pythoncom,win32com.shell",
-        "imgSrc": "/assets/projects/winLock.png",
+        "imgSrc": "/assets/projects/winlock.png",
         "url": "https://github.com/sky9262/winLock "
       },
       "gce-korea": {
