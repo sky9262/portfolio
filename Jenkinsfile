@@ -25,12 +25,12 @@ pipeline {
       script {
         if (isUnix()) {
           sh 'docker build -t portfolio .'
-          sh 'docker run --rm -v ${WORKSPACE}:/app -w /app portfolio npm install'
-          sh 'docker run --rm -v ${WORKSPACE}:/app -w /app portfolio npm test'
+          sh 'docker run -v ${WORKSPACE}:/app -w /app portfolio npm install'
+          sh 'docker run -v ${WORKSPACE}:/app -w /app portfolio npm test'
         } else {
           bat 'docker build -t portfolio .'
-          bat 'docker run --rm -v %WORKSPACE%:/app -w /app portfolio npm install'
-          bat 'docker run --rm -v %WORKSPACE%:/app -w /app portfolio npm test'
+          bat 'docker run -v %WORKSPACE%:/app -w /app portfolio npm install'
+          bat 'docker run -v %WORKSPACE%:/app -w /app portfolio npm test'
         }
       }
     }
