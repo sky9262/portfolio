@@ -19,15 +19,12 @@ pipeline {
         }
       }
     }
-
+    
     stage('Test') {
       steps {
         script {
-          if (isUnix()) {
-            sh 'npm run dev'
-          } else {
-            bat 'npm run dev'
-          }
+          docker.image('node:18.14.0').run('--rm -v ${pwd}:/app -w /app npm install')
+          docker.image('node:18.14.0').run('--rm -v ${pwd}:/app -w /app npm test')
         }
       }
     }
