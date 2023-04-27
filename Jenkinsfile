@@ -20,14 +20,21 @@ pipeline {
       }
     }
     
-    stage('Test') {
-      steps {
-        script {
-          docker.image('node:18.14.0').run('--rm -v ${pwd}:/app -w /app npm install')
-          docker.image('node:18.14.0').run('--rm -v ${pwd}:/app -w /app npm test')
+   stage('Test') {
+    steps {
+      script {
+        if (isUnix()) {
+          sh 'docker build -t portfolio .'
+          sh 'docker run --rm -v ${WORKSPACE}:/app -w /app portfolio npm install'
+          sh 'docker run --rm -v ${WORKSPACE}:/app -w /app portfolio npm test'
+        } else {
+          bat 'docker build -t portfolio .'
+          bat 'docker run --rm -v %WORKSPACE%:/app -w /app portfolio npm install'
+          bat 'docker run --rm -v %WORKSPACE%:/app -w /app portfolio npm test'
         }
       }
     }
+  }
 
     stage('Deploy') {
       steps {
