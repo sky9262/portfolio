@@ -1,5 +1,5 @@
 # Use the official Node.js base image
-FROM node:latest
+FROM node:18.14.0
 
 # Set the working directory in the container
 WORKDIR /portfolio
