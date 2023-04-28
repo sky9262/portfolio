@@ -20,6 +20,20 @@ pipeline {
       }
     }
     
+    stage('Test') {
+      steps {
+        script {
+          if (isUnix()) {
+            sh 'docker run portfolio npm install'
+            sh 'docker run portfolio npm run test'
+          } else {
+            bat 'docker run portfolio npm install'
+            bat 'docker run portfolio npm run test'
+          }
+        }
+      }
+    }
+
     stage('Deploy') {
       steps {
         script {
