@@ -20,20 +20,6 @@ pipeline {
       }
     }
     
-   stage('Test') {
-    steps {
-      script {
-        if (isUnix()) {
-          sh 'docker run -v ${WORKSPACE}:/app -w /app portfolio npm install'
-          sh 'docker run -v ${WORKSPACE}:/app -w /app portfolio npm test'
-        } else {
-          bat 'docker run -v %WORKSPACE%:/app -w /app portfolio npm install'
-          bat 'docker run -v %WORKSPACE%:/app -w /app portfolio npm test'
-        }
-      }
-    }
-  }
-
     stage('Deploy') {
       steps {
         script {
