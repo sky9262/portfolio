@@ -24,11 +24,11 @@ pipeline {
       steps {
         script {
           if (isUnix()) {
-            sh 'docker run portfolio npm install'
-            sh 'docker run portfolio npm run dev'
+            sh 'docker run -d portfolio npm install'
+            sh 'docker run -d portfolio npm run dev'
           } else {
-            bat 'docker run portfolio npm install'
-            bat 'docker run portfolio npm run dev'
+            bat 'docker run -d portfolio npm install'
+            bat 'docker run -d portfolio npm run dev'
           }
         }
       }
