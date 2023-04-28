@@ -25,10 +25,10 @@ pipeline {
         script {
           if (isUnix()) {
             sh 'docker run portfolio npm install'
-            sh 'docker run portfolio npm run test'
+            sh 'docker run portfolio npm run dev'
           } else {
             bat 'docker run portfolio npm install'
-            bat 'docker run portfolio npm run test'
+            bat 'docker run portfolio npm run dev'
           }
         }
       }
