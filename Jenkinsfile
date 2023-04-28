@@ -19,16 +19,14 @@ pipeline {
         }
       }
     }
-    
+
     stage('Test') {
       steps {
         script {
           if (isUnix()) {
-            sh 'docker run -d portfolio npm install'
-            sh 'docker run -d portfolio npm run dev'
+            sh 'npm run dev'
           } else {
-            bat 'docker run -d portfolio npm install'
-            bat 'docker run -d portfolio npm run dev'
+            bat 'npm run dev'
           }
         }
       }
