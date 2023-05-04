@@ -3,13 +3,13 @@ pipeline {
 
   stages {
     stage('Checkout') {
-      script  {
+      steps{
         checkout scm
       }
     }
 
     stage('Install dependencies') {
-      script  {
+      steps{
         if (isUnix()) {
           sh 'npm install'
         } else {
@@ -19,7 +19,7 @@ pipeline {
     }
     
     stage('Code quality checks') {
-      script  {
+      steps{
         if (isUnix()) {
           sh 'npm run lint'
         } else {
@@ -29,7 +29,7 @@ pipeline {
     }
 
     stage('Build the Docker image') {
-      script  {
+      steps{
         script {
           def image = docker.build("portfolio:${env.BUILD_ID}")
           sh 'docker tag portfolio:${env.BUILD_ID} portfolio:latest'
@@ -38,7 +38,7 @@ pipeline {
     }
 
     stage('Test') {
-      script  {
+      steps{
         script {
           if (isUnix()) {
             sh 'npm run dev'
@@ -50,7 +50,7 @@ pipeline {
     }
 
     stage('Start the Docker container') {
-      script  {
+      steps{
         if (isUnix()) {
           sh 'docker run -p 3000:3000 portfolio:${env.BUILD_ID}'
         } else {
