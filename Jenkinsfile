@@ -10,20 +10,24 @@ pipeline {
 
     stage('Install dependencies') {
       steps{
-        if (isUnix()) {
-          sh 'npm install'
-        } else {
-          bat 'npm install'
+        script {
+          if (isUnix()) {
+            sh 'npm install'
+          } else {
+            bat 'npm install'
+          }
         }
       }
     }
     
     stage('Code quality checks') {
       steps{
-        if (isUnix()) {
-          sh 'npm run lint'
-        } else {
-          bat 'npm run lint'
+        script{
+          if (isUnix()) {
+            sh 'npm run lint'
+          } else {
+            bat 'npm run lint'
+          }
         }
       }
     }
@@ -51,10 +55,12 @@ pipeline {
 
     stage('Start the Docker container') {
       steps{
-        if (isUnix()) {
-          sh 'docker run -p 3000:3000 portfolio:${env.BUILD_ID}'
-        } else {
-          bat 'docker run -p 3000:3000 portfolio:${env.BUILD_ID}'
+        script{
+          if (isUnix()) {
+            sh 'docker run -p 3000:3000 portfolio:${env.BUILD_ID}'
+          } else {
+            bat 'docker run -p 3000:3000 portfolio:${env.BUILD_ID}'
+          }
         }
       }
     }
