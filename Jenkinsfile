@@ -47,13 +47,4 @@ pipeline {
       }
     }
   }
-  
-  // Platform-specific function to check if the system is Unix-based
-  // This is needed because the "isUnix()" function doesn't work on Windows
-  // Source: https://stackoverflow.com/a/57841322/13944658
-  def isUnix() {
-    return System.properties['os.name'].toLowerCase().contains('nix') ||
-           System.properties['os.name'].toLowerCase().contains('nux') ||
-           System.properties['os.name'].toLowerCase().contains('aix');
-  }
 }
