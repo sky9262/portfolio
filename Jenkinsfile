@@ -35,8 +35,11 @@ pipeline {
     stage('Build the Docker image') {
       steps{
         script {
-          def image = docker.build("portfolio:${env.BUILD_ID}")
-          sh 'docker tag portfolio:${env.BUILD_ID} portfolio:latest'
+          if (isUnix()) {
+            sh 'docker build -t portfolio .'
+          } else {
+            bat 'docker build -t portfolio .'
+          }
         }
       }
     }
