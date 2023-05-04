@@ -10,13 +10,21 @@ pipeline {
     
     stage('Install dependencies') {
       steps {
-        sh 'npm install'
+        if (isUnix()) {
+          sh 'npm install'
+        } else {
+          bat 'npm install'
+        }
       }
     }
     
     stage('Code quality checks') {
       steps {
-        sh 'npm run lint'
+        if (isUnix()) {
+          sh 'npm run lint'
+        } else {
+          bat 'npm run lint'
+        }
       }
     }
     
@@ -31,8 +39,21 @@ pipeline {
     
     stage('Start the Docker container') {
       steps {
-        sh 'docker run -p 3000:3000 portfolio:${env.BUILD_ID}'
+        if (isUnix()) {
+          sh 'docker run -p 3000:3000 portfolio:${env.BUILD_ID}'
+        } else {
+          bat 'docker run -p 3000:3000 portfolio:${env.BUILD_ID}'
+        }
       }
     }
+  }
+  
+  // Platform-specific function to check if the system is Unix-based
+  // This is needed because the "isUnix()" function doesn't work on Windows
+  // Source: https://stackoverflow.com/a/57841322/13944658
+  def isUnix() {
+    return System.properties['os.name'].toLowerCase().contains('nix') ||
+           System.properties['os.name'].toLowerCase().contains('nux') ||
+           System.properties['os.name'].toLowerCase().contains('aix');
   }
 }
