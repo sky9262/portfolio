@@ -4,8 +4,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        checkout([$class: 'GitSCM', branches: [[name: 'main']], 
-                  userRemoteConfigs: [[url: 'https://github.com/sky9262/portfolio.git']]])
+        checkout scm
       }
     }
     
